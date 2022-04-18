@@ -4,16 +4,17 @@ package com.rengwuxian.rxjavasamples;
 
 import android.app.Application;
 
+
 public class App extends Application {
-    private static App INSTANCE;
+	private static App INSTANCE;
 
-    public static App getInstance() {
-        return INSTANCE;
-    }
+	public static App getInstance() {
+		return INSTANCE;
+	}
 
-    @Override
-    public void onCreate() {
-        super.onCreate();
-        INSTANCE = this;
-    }
+	@Override
+	public void onCreate() {
+		super.onCreate();
+		INSTANCE = this;
+	}
 }

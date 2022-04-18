@@ -3,13 +3,13 @@
 package com.rengwuxian.rxjavasamples.model;
 
 public class FakeToken {
-    public String token;
-    public boolean expired;
+	public String token;
+	public boolean expired;
 
-    public FakeToken() {
-    }
+	public FakeToken() {
+	}
 
-    public FakeToken(boolean expired) {
-        this.expired = expired;
-    }
+	public FakeToken(boolean expired) {
+		this.expired = expired;
+	}
 }

@@ -3,6 +3,6 @@
 package com.rengwuxian.rxjavasamples.model;
 
 public class ZhuangbiImage {
-    public String description;
-    public String image_url;
+	public String description;
+	public String image_url;
 }

@@ -3,9 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="end"
+    android:orientation="vertical"
     android:paddingStart="8dp"
-    android:paddingEnd="8dp"
-    android:orientation="vertical">
+    android:paddingEnd="8dp">
 
     <include layout="@layout/tip_bt" />
 
@@ -18,7 +18,7 @@
             android:id="@+id/tokenTv"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:background="#11333333"/>
+            android:background="#11333333" />
 
     </android.support.v4.widget.SwipeRefreshLayout>
 
@@ -26,12 +26,12 @@
         android:id="@+id/requestBt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/request_data"/>
+        android:text="@string/request_data" />
 
     <Button
         android:id="@+id/invalidateTokenBt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/invalidate_token"/>
+        android:text="@string/invalidate_token" />
 
 </LinearLayout>

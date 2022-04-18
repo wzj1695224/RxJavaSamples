@@ -3,6 +3,6 @@
 package com.rengwuxian.rxjavasamples.model;
 
 public class GankBeauty {
-    public String createdAt;
-    public String url;
+	public String createdAt;
+	public String url;
 }

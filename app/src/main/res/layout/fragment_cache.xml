@@ -7,8 +7,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingEnd="8dp"
-        android:paddingStart="8dp">
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp">
 
         <android.support.v7.widget.AppCompatTextView
             android:id="@+id/loadingTimeTv"
@@ -42,9 +42,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingEnd="8dp"
+        android:gravity="end"
         android:paddingStart="8dp"
-        android:gravity="end">
+        android:paddingEnd="8dp">
 
         <android.support.v7.widget.AppCompatButton
             android:id="@+id/clearMemoryCacheBt"

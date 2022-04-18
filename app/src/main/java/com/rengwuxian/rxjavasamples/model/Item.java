@@ -3,6 +3,6 @@
 package com.rengwuxian.rxjavasamples.model;
 
 public class Item {
-    public String description;
-    public String imageUrl;
+	public String description;
+	public String imageUrl;
 }

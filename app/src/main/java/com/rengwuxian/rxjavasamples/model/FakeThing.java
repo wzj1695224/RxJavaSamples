@@ -3,6 +3,6 @@
 package com.rengwuxian.rxjavasamples.model;
 
 public class FakeThing {
-    public int id;
-    public String name;
+	public int id;
+	public String name;
 }
